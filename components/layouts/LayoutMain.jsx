@@ -5,18 +5,11 @@ type Props = {
   children: Node
 };
 
-const Layout = styled.div`
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #000;
+const LayoutMain = styled.div`
 `;
 
 export default ({ children }: Props) => (
-  <Layout>
+  <LayoutMain>
     {children}
-  </Layout>
+  </LayoutMain>
 );

@@ -1,21 +1,12 @@
-import React, { Component } from 'react';
-import Layout from '../components/Layout';
-import Text from '../components/Text';
+import React from 'react';
+import Head from 'next/head';
+import Cover from '../components/blocks/Cover';
 
-class app extends Component {
-  static async getInitialProps() {
-    const { NODE_ENV } = process.env;
-    console.log(NODE_ENV);
-    return true;
-  }
-
-  render() {
-    return (
-      <Layout>
-        <Text text='hello world' />
-      </Layout>
-    );
-  }
-}
-  
-export default app;
+export default () => (
+  <div>
+    <Head>
+      <title>Full range of services to develop a successful site</title>
+    </Head>
+    <Cover />
+  </div>
+);
