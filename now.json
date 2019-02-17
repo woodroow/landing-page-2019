@@ -3,6 +3,6 @@
     "version": 2,
     "alias": "2019.veshkurov.pro",
     "builds": [
-        { "src": "next.config.js", "use": "@now/next" }
+        { "use": "@now/next" }
     ]
 }
