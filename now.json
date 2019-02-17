@@ -1,5 +1,8 @@
 {
     "name": "landing-page-2019",
     "version": 2,
-    "alias": "2019.veshkurov.pro"
+    "alias": "2019.veshkurov.pro",
+    "builds": [
+        { "src": "next.config.js", "use": "@now/next" }
+    ]
 }
