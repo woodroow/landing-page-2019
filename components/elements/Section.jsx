@@ -1,6 +1,6 @@
 import React, { type Node } from 'react';
 import styled, { css } from 'styled-components';
-import background from '../../static/assets/images/background.jpg';
+import background from '../../assets/images/background.jpg';
 import { lightColor } from '../../theme/colors';
 
 type Props = {
