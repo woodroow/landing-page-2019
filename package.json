@@ -9,6 +9,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "start-export": "next build && next export -o dist && serve dist",
     "export": "next export",
     "now-build": "next build && next export -o dist",
     "flow": "flow"
@@ -17,7 +18,8 @@
     "next": "^8.0.1",
     "next-images": "^1.0.4",
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "serve": "^10.1.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
